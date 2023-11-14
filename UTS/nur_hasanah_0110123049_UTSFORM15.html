@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(taman_bunga.jpg);
+        }
+
+        .judul{
+            font-weight: bold;
+            text-align: center;
+        }
+        label{
+           display: block;
+        }
+        .form-group{
+            margin: 10px
+        }
+        .form-container{
+            background-color:rgba(255, 255, 255, 0.87);
+            border-radius: 10%;
+            box-shadow: 0 0 10px black;
+            padding: 30px;
+            width: 500px;
+            margin: 100px auto; 
+        }
+        body{
+            font-family: georgia;
+        }
+        h2{
+            text-align: center;
+        }
+        button{
+            display: flexbox;
+            width: 200px;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: normal;
+            font-family: 'Roboto', sans-serif;
+            margin: 2rem 0;
+            margin-left: 2rem;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        
+    <form method="post" action="">
+            <div class="judul">
+            <h2>FORM REGISTRASI</h2>
+            <h3>TEMPAT REKREASI WISATA</h3>
+            </div>
+            
+        <table align="center">
+            <tr>
+            <div class="form-group">
+            <td><label for="nama">Nama Tempat Wisata</label></td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="" style="width: 196px;"></td>
+            </div>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="jeniswisata">Jenis Wisata</label></td>
+            <td>:</td>
+            <td><select name="jeniswisata" id="jeniswisata" style="width: 201px;">
+                <option value="taman" style="width: 201px;">Taman</option>
+                <option value="airterjun" style="width: 201px;">Air Terjun</option>
+                <option value="bukit" style="width: 201px;">Bukit</option>
+                </select></td>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="Dwisata">Deskripsi Wisata</label></td>
+            <td>:</td>
+            <td><textarea id="text" name="Dwisata" rows="3" cols="20" style="width: 200px;"></textarea></td>
+            </div>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="kontak">Kontak Person</label></td>
+            <td>:</td>
+            <td><input type="number" id="kontak" name=""style="width: 200px;"></td>
+            </div>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="alamat">Alamat</label></td>
+            <td>:</td>
+            <td><textarea id="text" name="alamat" rows="3" cols="20" style="width: 200px;"></textarea></td>
+            </div>
+            </tr>
+    
+            <tr>
+            <div class="form-group">
+            <td><label for="notelp">No. Hp/Telpon</label></td>
+            <td>:</td>
+            <td><input type="number" id="notelp" name="" style="width: 200px;"></td>
+            </div>
+            </tr>
+        
+            <tr>
+            <div class="form-group">
+            <td><label for="email">Email</label></td>
+            <td>:</td>
+            <td> <input type="email" id="email" name="email" style="width: 200px;"></td>
+            </div>
+            </tr>
+                        
+            <tr>
+            <div class="form-group">
+            <td><label for="web">Alamat Web</label></td>
+            <td>:</td>
+            <td> <input type="web" placeholder="https://" id="web" name="web" style="width: 200px;"></td>
+            </div>
+            </tr>
+                            
+            <tr>
+            <div class="form-group">
+            <td><label for="alamatL">Alamat Lengkap</label></td>
+            <td>:</td>
+            <td><textarea id="text" name="alamatL" rows="3" cols="20" style="width: 200px;"></textarea></td>
+            </div>
+            </tr>
+
+            <tr>
+            <div class="form-group">
+            <td><label for="lalo">Latitude,Longtitude</label></td>
+            <td>:</td>
+            <td><input type="text" id="lalo" name="" style="width: 200px;"></textarea></td>
+            </div>
+            </tr>
+
+        </table>
+            
+            <button style="background-color:green;border-color:black;color:white" type="submit">Daftar</button>
+            <button style="background-color:red;border-color:black;color:white" type="reset">Batal</button>
+
+    </form>
+    </div>
+</body>
+</html>
